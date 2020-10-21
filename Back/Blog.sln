@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{072EC075-1EBB-4E3D-9B04-65569DCF72B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{F7C13F25-60FC-4EDC-9EB9-0E4FE314EB77}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9F4FAE9F-8E94-4689-9EB9-F74D914E772D} = {9F4FAE9F-8E94-4689-9EB9-F74D914E772D}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{9F4FAE9F-8E94-4689-9EB9-F74D914E772D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mocker", "Mocker\Mocker.csproj", "{5899310C-14B5-44D3-80D0-73CCE74D9536}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "..\Docker\docker-compose.dcproj", "{38ADACCE-F57B-4D42-A124-680F43EFB6EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Docker Release|Any CPU = Docker Release|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{072EC075-1EBB-4E3D-9B04-65569DCF72B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072EC075-1EBB-4E3D-9B04-65569DCF72B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072EC075-1EBB-4E3D-9B04-65569DCF72B8}.Docker Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072EC075-1EBB-4E3D-9B04-65569DCF72B8}.Docker Release|Any CPU.Build.0 = Release|Any CPU
+		{072EC075-1EBB-4E3D-9B04-65569DCF72B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072EC075-1EBB-4E3D-9B04-65569DCF72B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C13F25-60FC-4EDC-9EB9-0E4FE314EB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C13F25-60FC-4EDC-9EB9-0E4FE314EB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C13F25-60FC-4EDC-9EB9-0E4FE314EB77}.Docker Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C13F25-60FC-4EDC-9EB9-0E4FE314EB77}.Docker Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C13F25-60FC-4EDC-9EB9-0E4FE314EB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C13F25-60FC-4EDC-9EB9-0E4FE314EB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4FAE9F-8E94-4689-9EB9-F74D914E772D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4FAE9F-8E94-4689-9EB9-F74D914E772D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4FAE9F-8E94-4689-9EB9-F74D914E772D}.Docker Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4FAE9F-8E94-4689-9EB9-F74D914E772D}.Docker Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4FAE9F-8E94-4689-9EB9-F74D914E772D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4FAE9F-8E94-4689-9EB9-F74D914E772D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5899310C-14B5-44D3-80D0-73CCE74D9536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5899310C-14B5-44D3-80D0-73CCE74D9536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5899310C-14B5-44D3-80D0-73CCE74D9536}.Docker Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5899310C-14B5-44D3-80D0-73CCE74D9536}.Docker Release|Any CPU.Build.0 = Release|Any CPU
+		{5899310C-14B5-44D3-80D0-73CCE74D9536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5899310C-14B5-44D3-80D0-73CCE74D9536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38ADACCE-F57B-4D42-A124-680F43EFB6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38ADACCE-F57B-4D42-A124-680F43EFB6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38ADACCE-F57B-4D42-A124-680F43EFB6EA}.Docker Release|Any CPU.ActiveCfg = Docker Release|Any CPU
+		{38ADACCE-F57B-4D42-A124-680F43EFB6EA}.Docker Release|Any CPU.Build.0 = Docker Release|Any CPU
+		{38ADACCE-F57B-4D42-A124-680F43EFB6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38ADACCE-F57B-4D42-A124-680F43EFB6EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C35B8E81-2221-4BE2-AF42-3814E848E87E}
+	EndGlobalSection
+EndGlobal

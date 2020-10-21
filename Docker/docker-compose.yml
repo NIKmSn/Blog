@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+    api:
+        image: nikmsn/api
+        container_name: API
+    front:
+        image: nikmsn/front
+        container_name: Front
